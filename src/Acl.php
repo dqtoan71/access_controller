@@ -43,7 +43,6 @@ class Acl
 
     public function getAccessData(){return $this->_accessData;}
 
-
     public function isAllowed($controller, $action)
     {
         foreach ($this->_accessData as $con => $act){
